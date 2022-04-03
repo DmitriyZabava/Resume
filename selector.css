@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Vollkorn', sans-serif;
-    /* background:black ; */    
+    font-size: 16px;
+    background: #f1f1f1;
+
 }
 .container{
-
+    max-width: 800;
+    margin: auto;
+    padding-top: 9px;
 }
 .avatar {
     width: 200px;
-    border-radius: 0;
+    border-radius: 30;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
 }
 .card{
-    
+    background: gray;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 8;
 }
 .aboutme {
 
