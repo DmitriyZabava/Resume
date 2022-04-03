@@ -3,5 +3,33 @@
 
 body {
     font-family: 'Vollkorn', sans-serif;
-    font-size: 16px;
+    /* background:black ; */    
+}
+.container{
+
+}
+.avatar {
+    width: 200px;
+    border-radius: 0;
+}
+.card{
+    
+}
+.aboutme {
+
+}
+.hobby {
+
+}
+.working {
+    
+}
+.social {
+
+}
+.sendform {
+
+}
+.inform {
+
 }

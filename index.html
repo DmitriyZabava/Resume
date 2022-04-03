@@ -5,68 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content=" Dmitriy Zabava Resume sait">
-    <meta  name="description" content="Это Резюме сайт Дмитрия Забава 
+    <meta  name="description" content="Это Резюме сайт Дмитрия Забава , курс HTML & CSS для новичков
     в школе 'Result School' ,
-    курс HTML & CSS для новичков ">
+     ">
     <title>Dmitriy'Zabava</title>
     <link rel="stylesheet" href="selector.css">
 </head>
 <body>
-<img src="avatar.jpg" width="200" alt="My Avatar">
-<hr>
-<h1>    <strong> Забава Дмитрий Владимирович </strong> </h1>
+    <div class="container">
 
-<p>
-    Мне 43 . <br>
+        <img  src="avatar.jpg"  alt="Dmitriy Zabava" class="avatar">
+        
+        <div class="card aboutme">
+            <h1><strong> Забава Дмитрий Владимирович </strong></h1>
+            <p>
+                Мне 43 . <br>С самого детства я увлекаюсь компьтерными технологиями . Мой первый компьютер <em>ZX Spectrum </em>, игры , первое знакомство с программированием на языке <em>Sinclair BASIC</em> .( В далёкие 90'е интернета не было , информатики в школе не было ).<br> И хоть всю жизнь моя работа не связана с компьтерами , меня всегда влекло к этим технологиям . В конце 2021 я начал изучать Python . А в марте 2022 познакомился  с <em>YouTube каналом <strong> Владилена Минина</strong>  и школой <strong> Result School</strong></em> , и решил пройти курс <em>HTML & CSS</em> для новичков . 
+            </p>
+            <p>Огромное спасибо <strong>Владилену и его команде !</strong></p>
+        </div>
 
-    С самого детства я увлекаюсь компьтерными технологиями . Мой первый компьютер <em>ZX Spectrum </em>, игры , первое знакомство с программированием на языке <em>Sinclair BASIC</em> .( В далёкие 90'е интернета не было , информатики в школе не было ).<br> И хоть всю жизнь моя работа не связана с компьтерами , меня всегда влекло к этим технологиям . 
-    В конце 2021 я начал изучать Python . А в марте 2022 познакомился  с <em>YouTube каналом <strong> Владилена Минина</strong>  и школой <strong> Result School</strong></em> . 
-    И решил пройти курс <em>HTML & CSS</em> для новичков . 
-</p>
-<p>Огромное спасибо <strong>Владилену и его команде !</strong></p>
+        <div class="card hobby">
+            <h2><strong>Мои хобби</strong></h2>
+            <ul>
+                <li>Туризм</li>
+                <li>Рубалка</li>
+                <li>НаучПоп</li>
+                <li>Компьютеры</li>
+            </ul>
+        </div>
 
-<hr>
+        <div class="card working">
+            <table>
+                <thead>
+                <tr>
+                    <th>Организация</th>
+                    <th>Должность</th>
+                    <th>Годы</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
 
-<h2><strong>Мои хобби</strong></h2>
-<ul>
-    <li>Туризм</li>
-    <li>Рубалка</li>
-    <li>НаучПоп</li>
-    <li>Компьютеры</li>
-</ul>
+        <div class="social">
+            <H3>Я в соцсетях</H3>
+            <a href="https://vk.com/id23930050" target="_blank">VKontakte</a>
+            <a href="https://t.me/DmitriyZabava" target="_blank">Telegram</a>
+        </div>
 
-<hr>
+        <form class="sendform">
+            <Fieldset class="inform">
+                <legend>Контактная информация</legend>
+                <label for="lastame">Ваше Имя:</label>
+                <input type="text" id="lastame" placeholder="Введите Имя">
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" placeholder="Введите Email">
+            </Fieldset>
 
-<a href="https://vk.com/id23930050" target="_blank">VKontakte</a>
-<br>
-<a href="https://t.me/DmitriyZabava" target="_blank">Telegram</a>
+            <div>
+                <label for="massage">Ваше сообщение:</label>
+                <textarea name="massage"   cols="25" rows="5" placeholder="Введите сообщение" >
 
-<br>
-<hr>
-
-<form >
-    <div>
-        <label for="text">Ваше Имя:</label>
-        <input type="text" id="text" placeholder="Введите Имя">
+                </textarea>
+            </div>
+            <button type="submit">Отправить!</button>
+        </form>
     </div>
- 
-    <div>
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Введите Email">
-    </div>
-
-    <div>
-         <label for="massage">Ваше сообщение:</label>
-         <br>
-         <textarea name="massage" id="massage"  cols="25" rows="5"
-          placeholder="Введите сообщение" >
-         </textarea>
-    </div>
-
-    <button type="submit">Отправить!</button>
- </form>
-
-
-
 </body>
 </html>
