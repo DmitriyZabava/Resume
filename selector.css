@@ -7,11 +7,9 @@
 body {
     font-family: 'Vollkorn', sans-serif;
     font-size: 16px;
-    background: #f1f1f1;
-
 }
 .container{
-    background-image: url(water.jpg);
+    /* background-image: url(water.jpg); */
     max-width: 800px;
     margin: auto;
     padding-top: 9px;
@@ -21,21 +19,40 @@ body {
     border-radius: 30px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
 }
+.aboutme {
+}
 .card{
-    /* background: gray; */
     border-radius: 5px;
     padding: 15px 20px;
-    margin-bottom: 8;
+    margin-bottom: 8px;
 }
-.aboutme {
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: #000080;
+}
+ul {
+    list-style: none;
+    color: #000080;
+}
+table {
+    width: 80%;
+}
+table th{
+    text-align: left;
+    font-size: large;
+    padding-bottom: 12px;
+}
+table td{
+    text-align: left;
+    padding-bottom: 8px;
+}
 
-}
-.hobby {
-
-}
-.working {
-    
-}
 .social {
 
 }
@@ -44,4 +61,15 @@ body {
 }
 .inform {
 
+}
+.btn{
+    background: PeachPuff;
+    padding: 7px 14px;
+    color: #000;
+    border: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.6;
 }

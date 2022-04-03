@@ -19,12 +19,12 @@
         <div class="card aboutme">
             <h1> Забава Дмитрий Владимирович </h1>
             <p>
-                Мне 43 . <br>С самого детства я увлекаюсь компьтерными технологиями . Мой первый компьютер <em>ZX Spectrum </em>, игры , первое знакомство с программированием на языке <em>Sinclair BASIC</em> .( В далёкие 90'е интернета не было , информатики в школе не было ).<br> И хоть всю жизнь моя работа не связана с компьтерами , меня всегда влекло к этим технологиям . В конце 2021 я начал изучать Python . А в марте 2022 познакомился  с <em>YouTube каналом <strong> Владилена Минина</strong>  и школой <strong> Result School</strong></em> , и решил пройти курс <em>HTML & CSS</em> для новичков . 
+                Мне 43 . <br> В конце 2021 я начал изучать Python . B марте 2022 познакомился  с <em>YouTube каналом <strong> Владилена Минина</strong>  и школой <strong> Result School</strong></em> , и решил пройти курс <em>HTML & CSS</em> для новичков . 
             </p>
             <p>Огромное спасибо <strong>Владилену и его команде !</strong></p>
         </div>
 
-        <div class="card hobby">
+        <div class="card" id="hobby">
             <h2>Мои хобби</h2>
             <ul>
                 <li>Туризм</li>
@@ -34,7 +34,7 @@
             </ul>
         </div>
 
-        <div class="card working">
+        <div class="card" id="work">
             <table>
                 <thead>
                 <tr>
@@ -45,19 +45,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>OOO NextForm</td>
+                        <td>Обивщик</td>
+                        <td>2010-2013</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>ИП Вьюшин</td>
+                        <td>Мастер  цеха</td>
+                        <td>2013-2017-....</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>ООО Scoliologic</td>
+                        <td>Оператор ЧПУ <br> Техник</td>
+                        <td>2017-2020</td>
                     </tr>
                 </tbody>    
             </table>
@@ -65,7 +65,7 @@
 
         <div class="card social">
             <H3>Я в соцсетях</H3>
-            <a href="https://vk.com/id23930050" target="_blank">VKontakte</a>
+            <a href="https://vk.com/id23930050" target="_blank">VK</a>
             |
             <a href="https://t.me/DmitriyZabava" target="_blank">Telegram</a>
             |
@@ -76,6 +76,7 @@
                 <legend>Контактная информация</legend>
                 <label for="lastame">Ваше Имя:</label>
                 <input type="text" id="lastame" placeholder="Введите Имя">
+                <br>
                 <label for="email">Ваш Email:</label>
                 <input type="email" id="email" placeholder="Введите Email">
             </Fieldset>
@@ -87,7 +88,7 @@
 
                 </textarea>
             </div>
-            <button type="submit">Отправить!</button>
+            <button class="btn" type="submit">Отправить!</button>
         </form>
     </div>
 </body>
