@@ -6,27 +6,27 @@
 }
 html {
     background-color: #202020;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 body {
     font-family: 'Vollkorn', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 .container{
     background-image: url(imgs/zxs.jpg);
-    font-size: 15px;
     color: PeachPuff;
-    max-width: 1200px; 
+    max-width: 768px; 
     margin: auto;
-    padding-top: 9px;
+    padding-top: 16px;
 }
 .avatar {
+    width: 200px;
     border-radius: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 25);
 }
@@ -34,11 +34,20 @@ body {
      margin-bottom: 12px; 
     display: flex;
 }
+.tophead #aboutme {
+    margin-left: 30px;
+}
 a {
     font-style: italic;
     text-decoration: none;
     color: PeachPuff;
 }
+@media (max-width: 650px) {
+    .tophead {
+      display: block;
+      text-align: center;
+    }
+  }
 .card{
     border-radius: 8px;
     padding: 10px 15px;
@@ -47,7 +56,7 @@ a {
     margin-left: 6px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 25);
 }
-#vk{
+#vk {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -61,7 +70,7 @@ a {
 #vk:hover{
     opacity: 0.4;
 }
-#telega{
+#telega {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -103,7 +112,7 @@ a {
     border: none;
     background: transparent;
     border-bottom: 1px solid;
-    color: #333f5c;
+    color: #a07f62;
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
