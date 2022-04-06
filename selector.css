@@ -4,64 +4,119 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body {
     font-family: 'Vollkorn', sans-serif;
     font-size: 16px;
 }
 .container{
-    /* background-image: url(water.jpg); */
-    max-width: 800px;
+    background-image: url(imgs/zxs.jpg);
+    font-size: 15px;
+    color: PeachPuff;
+    max-width: 1200px; 
     margin: auto;
     padding-top: 9px;
 }
 .avatar {
-    width: 200px;
     border-radius: 30px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 25);
 }
-.aboutme {
-}
-.card{
-    border-radius: 5px;
-    padding: 15px 20px;
-    margin-bottom: 8px;
+.tophed {
+     margin-bottom: 12px; 
+    display: flex;
 }
 a {
-    color: #000;
+    font-style: italic;
     text-decoration: none;
+    color: PeachPuff;
 }
-a:hover {
-    text-decoration: underline;
+.card{
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    margin-left: 6px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 25);
 }
-a:active{
-    color: #000080;
+#vk{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 5px;
+    padding: 15px 15px; 
+    transition: 0.4s ease-in-out;
+    border-radius: 7px;
+    background-image: url(imgs/VK_icon.jpg);
 }
-ul {
+#vk:hover{
+    opacity: 0.4;
+}
+#telega{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 5px;
+    padding: 15px 15px;
+    transition: 0.4s ease-in-out;
+    border-radius: 7px;
+    background-image: url(imgs/telegram_icon.jpg)
+}
+#telega:hover{
+    opacity: 0.4;
+}
+#hobby ul {
     list-style: none;
-    color: #000080;
 }
-table {
-    width: 80%;
+#work table {
+    width: 90%;
 }
-table th{
+#work table th{
     text-align: left;
     font-size: large;
     padding-bottom: 12px;
 }
-table td{
+#work table td{
     text-align: left;
     padding-bottom: 8px;
 }
-
-.social {
-
+.form h2 {
+    text-align: center;
 }
-.sendform {
-
+.form-group{
+    display: block;
 }
-.inform {
-
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    color: #333f5c;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
 }
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group {
+    width: 50%;
+    margin-right: 15px;
+}
+
 .btn{
     background: PeachPuff;
     padding: 7px 14px;
@@ -69,6 +124,7 @@ table td{
     border: 1px;
     border-radius: 7px;
     cursor: pointer;
+    font-family: inherit;
 }
 .btn:hover{
     opacity: 0.6;

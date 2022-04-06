@@ -13,26 +13,32 @@
 </head>
 <body>
     <div class="container">
-
-        <img  src="avatar.jpg"  alt="Dmitriy Zabava" class="avatar">
+        <div class="tophed">
+            <img  src="imgs/avatar.jpg"  alt="Dmitriy Zabava" class="avatar">
         
-        <div class="card aboutme">
-            <h1> Забава Дмитрий Владимирович </h1>
-            <p>
-                Мне 43 . <br> В конце 2021 я начал изучать Python . B марте 2022 познакомился  с <em>YouTube каналом <strong> Владилена Минина</strong>  и школой <strong> Result School</strong></em> , и решил пройти курс <em>HTML & CSS</em> для новичков . 
-            </p>
-            <p>Огромное спасибо <strong>Владилену и его команде !</strong></p>
+            <div class="card" id=" aboutme">
+                <h1> Забава Дмитрий Владимирович </h1>
+                <p>
+                    Мне 43 . <br>Давным-давно в конце <strong> 80х</strong> у меня появился первый компьютер . Это был <a href="https://ru.wikipedia.org/wiki/ZX_Spectrum" target="_blank">ZX Spectrum</a> . Я тогда был еще школьником и естественно в первую очередь меня интересовали игры , но не только оди игры , были первые попытки программирования на <a href="https://ru.wikipedia.org/wiki/Sinclair_BASIC" target="_blank">Sinclair BASIC</a> . С тех пор много воды утекло . Программистом я не стал , но интерес к программированию маленькой искоркой теплился во мне . Год назад я начал замечать что , как бы это сказать "тупею" что-ли , может последствия COVID19 . И понял с этим надо бороться . В конце 2021 я начал изучать <a href="https://www.python.org/?hl=ru" target="_blank">Python</a> , затем взялся за English . B марте 2022 познакомился  с <a href="https://www.youtube.com/c/VladilenMinin" target="_blank">YouTube каналом  Владилена Минина</a>   и школой  <a href="https://vladilen.ru/teach/control" target="_blank">Result School</a>  , и решил пройти курс <em>HTML & CSS</em> для новичков . 
+                </p>
+                <p>Огромное спасибо <strong>Владилену и его команде</strong> , за предоставленную возможность !</p>
+                <div class="social">
+                    <H4>Я в соцсетях</H4>
+                <a href="https://vk.com/id23930050" target="_blank" id="vk"></a>
+                <a href="https://t.me/DmitriyZabava" target="_blank" id="telega"></a>
+                </div>    
+            </div>
         </div>
-
-        <div class="card" id="hobby">
-            <h2>Мои хобби</h2>
-            <ul>
-                <li>Туризм</li>
-                <li>Рубалка</li>
-                <li>НаучПоп</li>
-                <li>Компьютеры</li>
-            </ul>
-        </div>
+            <div class="card" id="hobby">
+                <h2>Мои хобби</h2>
+                <ul>
+                    <li>Туризм</li>
+                    <li>Рыбалка</li>
+                    <li>НаучПоп</li>
+                    <li>Цифровые технологии</li>
+                </ul>
+            </div>
+        
 
         <div class="card" id="work">
             <table>
@@ -47,12 +53,12 @@
                     <tr>
                         <td>OOO NextForm</td>
                         <td>Обивщик</td>
-                        <td>2010-2013</td>
+                        <td>2010-2014</td>
                     </tr>
                     <tr>
                         <td>ИП Вьюшин</td>
                         <td>Мастер  цеха</td>
-                        <td>2013-2017-....</td>
+                        <td>2014-2017-2020-..</td>
                     </tr>
                     <tr>
                         <td>ООО Scoliologic</td>
@@ -62,33 +68,27 @@
                 </tbody>    
             </table>
         </div>
-
-        <div class="card social">
-            <H3>Я в соцсетях</H3>
-            <a href="https://vk.com/id23930050" target="_blank">VK</a>
-            |
-            <a href="https://t.me/DmitriyZabava" target="_blank">Telegram</a>
-            |
-        </div>
-
-        <form class="card sendform">
-            <Fieldset class="inform">
-                <legend>Контактная информация</legend>
-                <label for="lastame">Ваше Имя:</label>
-                <input type="text" id="lastame" placeholder="Введите Имя">
-                <br>
-                <label for="email">Ваш Email:</label>
-                <input type="email" id="email" placeholder="Введите Email">
-            </Fieldset>
-
-            <div>
-                <label for="massage">Ваше сообщение:</label>
-                <br>
-                <textarea name="massage"   cols="25" rows="5" placeholder="Введите сообщение" >
-
-                </textarea>
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+      
+            <div class="form-row">
+      
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+              </div>
             </div>
-            <button class="btn" type="submit">Отправить!</button>
+      
+            <div class="form-group">
+              <label for="message">Ваше сообщение:</label>
+              <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button class="btn" type="submit" value="Отправить!">Отправить !</button>
         </form>
     </div>
 </body>
