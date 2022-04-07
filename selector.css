@@ -6,29 +6,27 @@
 }
 html {
     background-color: #202020;
-    /* background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 }
 body {
     font-family: 'Vollkorn', sans-serif;
     font-size: 15px;
+    font-weight: normal;
 }
 .container{
     background-image: url(imgs/zxs.jpg);
     color: PeachPuff;
-    max-width: 768px; 
+    max-width: 750px; 
     margin: auto;
-    padding-top: 16px;
+    padding-top: 20px;
 }
 .avatar {
-    width: auto;
+    width: 200px;
     border-radius: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 25);
+}
+.tophed {
+    margin-bottom: 20px; 
+   display: flex;
 }
 .aboutme {
     width: auto;
@@ -39,14 +37,15 @@ body {
     margin-left: 6px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 25);
 }
-.tophed {
-     margin-bottom: 12px; 
-    display: flex;
-}
+
 .aboutme a {
     font-style: italic;
+    font-family: inherit;
     text-decoration: none;
-    color: PeachPuff;
+    color: rgb(240, 142, 56);
+}
+.aboutme a:active {
+    color: antiquewhite;
 }
 @media (max-width: 650px) {
     .tophead {
