@@ -14,9 +14,12 @@ body {
 }
 .container{
     background-image: url(imgs/zxs.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     color: PeachPuff;
-    max-width: 750px; 
+    max-width: 800px; 
     margin: auto;
     padding-top: 20px;
 }
