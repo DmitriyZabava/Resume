@@ -9,7 +9,7 @@ html {
 }
 body {
     font-family: 'Vollkorn', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
 }
 .container{
@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: PeachPuff;
-    max-width: 800px; 
+    max-width: 1200px; 
     margin: auto;
     padding-top: 20px;
 }
